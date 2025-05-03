@@ -1,0 +1,10 @@
+.main-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 26px;
+    margin: 40px;
+    
+}
+.main-img img{
+    width: 399px;
+}

@@ -1,0 +1,19 @@
+.main-picture{
+    display: flex;
+}
+.main-picture img{
+    width: 100%;
+    height: 500px;
+   object-fit: contain;
+    margin: 20px 0px;
+}
+.main-info{
+    margin: 10px 60px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.main-picture span p{
+  position: relative;
+  font-size: 25px;
+  left: -60px;
+}

@@ -1,0 +1,11 @@
+.main-picture img{
+    width: 100%;
+    height: 500px;
+    object-fit: contain;
+    margin: 20px 0px;
+}
+.main-info{
+    margin: 10px 60px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
