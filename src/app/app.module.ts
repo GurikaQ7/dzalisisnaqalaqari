@@ -13,7 +13,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { ArchComponent } from './components/arch/arch.component';
 import { AdInfoComponent } from './components/ad-info/ad-info.component';
 import { AbAuComponent } from './components/ab-au/ab-au.component';
-import { BackComponent } from './components/back/back.component';
+
 
 
 @NgModule({
@@ -29,7 +29,7 @@ import { BackComponent } from './components/back/back.component';
     ArchComponent,
     AdInfoComponent,
     AbAuComponent,
-    BackComponent,
+    
   
     
   ],

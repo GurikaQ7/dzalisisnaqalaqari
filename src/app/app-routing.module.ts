@@ -7,7 +7,7 @@ import { HistoryComponent } from './components/history/history.component';
 import { ArchComponent } from './components/arch/arch.component';
 import { AdInfoComponent } from './components/ad-info/ad-info.component';
 import { AbAuComponent } from './components/ab-au/ab-au.component';
-import { BackComponent } from './components/back/back.component';
+
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -19,7 +19,7 @@ const routes: Routes = [
   { path: 'arch', component: ArchComponent },
   { path: 'ad-info', component: AdInfoComponent },
   { path: 'ab-au', component: AbAuComponent },
-  { path: 'back', component: BackComponent }
+  
 ];
 
 @NgModule({
