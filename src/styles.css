@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-@media (max-width: 360px){
+@media (max-width: 300px){
    .top-header, .bottom-header{
     width: 360px;
     padding: 0 !important;
