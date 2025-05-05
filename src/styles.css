@@ -2,3 +2,52 @@
 body{
     margin: 0;
 }
+
+@media (max-width: 360px){
+   .top-header, .bottom-header{
+    width: 360px;
+    padding: 0 !important;
+    margin: 0 !important;
+   }
+   
+   .bottom-header-nav-container nav ul{
+   gap: 0px !important;
+
+   flex-wrap: wrap;
+   }
+
+   .bottom-header-nav-container nav ul li a{
+   margin: 9px 15px !important;
+   font-size: 10px !important;
+   position: relative;
+    
+    left: -5px;
+    top: -5px;
+    
+    
+   }
+
+   .top-header-text h1 {
+font-size: 10px !important;
+margin: 0 !important;
+font-size: 15px !important;
+   }
+
+   .top-header-text button{
+    font-size: 15px !important;
+    width: 110px !important;
+    height: 40px !important;
+    margin-top: 2px !important;
+   }
+
+ .main{
+    padding: 10px;
+ }
+
+.main-info h1 {
+    font-size: 20px !important;
+    margin: 0 !important;
+}
+
+}
+    
